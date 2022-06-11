@@ -1,5 +1,6 @@
 package net.kistyak.kistyakmod;
 
+import net.kistyak.kistyakmod.block.ModBlocks;
 import net.kistyak.kistyakmod.item.ModItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -27,6 +28,7 @@ public class KistyakMod {
     public KistyakMod() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItem.register(eventBus);
+        ModBlocks.register(eventBus);
         eventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
     }
