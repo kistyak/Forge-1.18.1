@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "kistyakmod:pinkdiamond"
+    }
+  },
+  "result": {
+    "item": "kistyakmod:pink_diamond_block"
+  }
+}
