@@ -1,6 +1,7 @@
 package net.kistyak.kistyakmod.block;
 
 import net.kistyak.kistyakmod.KistyakMod;
+import net.kistyak.kistyakmod.item.ModCreativeModeTab;
 import net.kistyak.kistyakmod.item.ModItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,13 +23,13 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PINKDIAMOND_BLOCK = registryBlock("pink_diamond_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
     public static final RegistryObject<Block> PINK_DIAMOND_ORE = registryBlock("pink_diamond_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
     public static final RegistryObject<Block> DEEPSLATE_PINK_DIAMOND_ORE = registryBlock("deepslate_pink_diamond_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

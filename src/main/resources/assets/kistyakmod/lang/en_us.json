@@ -3,5 +3,7 @@
 
   "block.kistyakmod.pink_diamond_block": "Pink Diamond Block",
   "block.kistyakmod.pink_diamond_ore": "Pink Diamond Ore",
-  "block.kistyakmod.deepslate_pink_diamond_ore": "DeepSlate Pink Diamond Ore"
+  "block.kistyakmod.deepslate_pink_diamond_ore": "DeepSlate Pink Diamond Ore",
+
+  "itemGroup.tab": "Kistyak Mod"
 }
