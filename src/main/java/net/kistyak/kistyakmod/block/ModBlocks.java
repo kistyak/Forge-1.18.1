@@ -1,6 +1,7 @@
 package net.kistyak.kistyakmod.block;
 
 import net.kistyak.kistyakmod.KistyakMod;
+import net.kistyak.kistyakmod.block.custom.SpeedyBlock;
 import net.kistyak.kistyakmod.item.ModCreativeModeTab;
 import net.kistyak.kistyakmod.item.ModItem;
 import net.minecraft.world.item.BlockItem;
@@ -30,6 +31,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_PINK_DIAMOND_ORE = registryBlock("deepslate_pink_diamond_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registryBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
