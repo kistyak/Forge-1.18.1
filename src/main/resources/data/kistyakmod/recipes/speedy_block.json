@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#SS",
+    "SSG",
+    "GGG"
+  ],
+  "key": {
+    "#": {
+      "item": "kistyakmod:bitumen"
+    },
+    "S": {
+      "item": "minecraft:sand"
+    },
+    "G": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "kistyakmod:speedy_block",
+    "count": 8
+  }
+}

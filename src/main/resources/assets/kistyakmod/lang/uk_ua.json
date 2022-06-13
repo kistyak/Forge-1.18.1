@@ -1,9 +1,11 @@
 {
   "item.kistyakmod.pinkdiamond": "Рожевий діамант",
   "item.kistyakmod.cheeps": "Чіпси",
+  "item.kistyakmod.bitumen": "Бітум",
 
   "block.kistyakmod.pink_diamond_block": "Рожевий діамантовий блок",
   "block.kistyakmod.pink_diamond_ore": "Рожева діамантова руда",
   "block.kistyakmod.deepslate_pink_diamond_ore": "Глибосланцева рожева діамантова руда",
+  "block.kistyakmod.bitumen_ore": "Бітумна руда",
   "block.kistyakmod.speedy_block": "Швидкий блок"
 }

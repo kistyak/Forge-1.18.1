@@ -30,10 +30,13 @@ public class ModBlocks {
                     .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
     public static final RegistryObject<Block> DEEPSLATE_PINK_DIAMOND_ORE = registryBlock("deepslate_pink_diamond_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
     public static final RegistryObject<Block> SPEEDY_BLOCK = registryBlock("speedy_block",
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
+    public static final RegistryObject<Block> BITUMEN_ORE = registryBlock("bitumen_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -1,11 +1,13 @@
 {
   "item.kistyakmod.pinkdiamond": "Pink Diamond",
   "item.kistyakmod.cheeps": "Cheeps",
+  "item.kistyakmod.bitumen": "Bitumen",
 
   "block.kistyakmod.pink_diamond_block": "Pink Diamond Block",
   "block.kistyakmod.pink_diamond_ore": "Pink Diamond Ore",
   "block.kistyakmod.deepslate_pink_diamond_ore": "DeepSlate Pink Diamond Ore",
   "block.kistyakmod.speedy_block": "Speedy Block",
+  "block.kistyakmod.bitumen_ore": "Bitumen Ore",
 
   "itemGroup.tab": "Kistyak Mod"
 }
