@@ -14,6 +14,9 @@ public class ModItem {
     public static final RegistryObject<Item> PINKDIAMOND = ITEMS.register("pinkdiamond",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TAB)));
 
+    public static final RegistryObject<Item> CHEEPS = ITEMS.register("cheeps",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TAB).food(ModFoods.CHEEPS)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
