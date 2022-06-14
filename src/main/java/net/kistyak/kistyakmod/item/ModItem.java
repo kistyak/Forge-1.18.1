@@ -1,6 +1,7 @@
 package net.kistyak.kistyakmod.item;
 
 import net.kistyak.kistyakmod.KistyakMod;
+import net.kistyak.kistyakmod.item.custom.BitumenItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,7 +16,7 @@ public class ModItem {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TAB)));
 
     public static final RegistryObject<Item> BITUMEN = ITEMS.register("bitumen",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TAB)));
+            () -> new BitumenItem(new Item.Properties().tab(ModCreativeModeTab.TAB)));
 
     public static final RegistryObject<Item> CHEEPS = ITEMS.register("cheeps",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TAB).food(ModFoods.CHEEPS)));
