@@ -24,7 +24,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PINKDIAMOND_BLOCK = registryBlock("pink_diamond_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
     public static final RegistryObject<Block> PINK_DIAMOND_ORE = registryBlock("pink_diamond_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);

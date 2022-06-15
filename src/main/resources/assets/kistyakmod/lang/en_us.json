@@ -3,6 +3,12 @@
   "item.kistyakmod.cheeps": "Cheeps",
   "item.kistyakmod.bitumen": "Bitumen",
 
+  "item.kistyakmod.pink_diamond_sword": "Pink Diamond Sword",
+  "item.kistyakmod.pink_diamond_pickaxe": "Pink Diamond Pickaxe",
+  "item.kistyakmod.pink_diamond_shovel": "Pink Diamond Shovel",
+  "item.kistyakmod.pink_diamond_axe": "Pink Diamond Axe",
+  "item.kistyakmod.pink_diamond_hoe": "Pink Diamond Hoe",
+
   "block.kistyakmod.pink_diamond_block": "Pink Diamond Block",
   "block.kistyakmod.pink_diamond_ore": "Pink Diamond Ore",
   "block.kistyakmod.deepslate_pink_diamond_ore": "DeepSlate Pink Diamond Ore",

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "kistyakmod:item/pink_diamond_axe"
+  }
+}
