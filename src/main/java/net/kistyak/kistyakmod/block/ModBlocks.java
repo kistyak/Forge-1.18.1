@@ -27,10 +27,10 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
     public static final RegistryObject<Block> PINK_DIAMOND_ORE = registryBlock("pink_diamond_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
     public static final RegistryObject<Block> DEEPSLATE_PINK_DIAMOND_ORE = registryBlock("deepslate_pink_diamond_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
     public static final RegistryObject<Block> SPEEDY_BLOCK = registryBlock("speedy_block",
             () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
